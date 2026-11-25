@@ -1,0 +1,20 @@
+Parameter,Value,Description
+Workspace_width_m,100,Synthetic 2D workspace
+Workspace_height_m,100,Synthetic 2D workspace
+Grid_resolution_m,2,Grid spacing
+Number_of_obstacles,6,Rectangular obstacles
+Safety_buffer_m,2,Obstacle safety buffer
+Start_x_m,5,Start coordinate
+Start_y_m,5,Start coordinate
+Goal_x_m,95,Goal coordinate
+Goal_y_m,95,Goal coordinate
+Random_seed,42,Experiment seed
+Maximum_edge_deviation,0.3,Disturbance parameter
+Route_change_penalty,0.05,Recourse penalty
+Gamma_values,"0,1,2",Uncertainty budgets
+Random_scenarios_per_gamma,2,Sampled scenarios
+Full_graph_nodes,1594,Generated graph
+Restricted_graph_nodes,477,Corridor-restricted graph
+Restricted_physical_edges,1627,Physical edges
+Directed_arcs,3254,Directed graph arcs
+Nominal_route_edges,68,Nominal route
